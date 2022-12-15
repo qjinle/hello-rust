@@ -19,5 +19,15 @@ fn main() {
         println!("The value of x in the inner scope is: {x}");
     }
 
+    // 元组
+    let tup = (500, 1, 6.4, true);
+
+    // let (x, y, z, b) = tup;
+    let x = tup.0;
+
+    // 数组
+    let arr = [1, 2, 3, 4, 5];
+    let arr1 = [3; 5]; // [3, 3, 3, 3, 3]
+
     println!("The value of x is: {x}");
 }
